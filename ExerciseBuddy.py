@@ -26,7 +26,7 @@ class ExerciseBuddy(WOC):
     duration = 1
     cozmoSleeping = False
     startWorkout = False
-    tries = 2
+    tries = 0
     
     
     def __init__(self, *a, **kw):

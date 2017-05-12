@@ -3,7 +3,7 @@
 This is a linear experience that highlights Cozmo’s unique personality. In this, the player acts as Cozmo’s personal fitness trainer. Cozmo throws a tantrum when asked to workout, after waking up. After a couple of tries, he finally gives in and starts exercising with the cube. Players can make him change pace by giving him voice commands. After it becomes too fast for him to handle, Cozmo becomes too tired and dozes off.
 
 ## Video
-https://www.youtube.com/watch?list=PLiWWaMjaY89MVIFR2vFqOSwl38NSUGrOI&v=J1WHM6k2eWc
+https://www.youtube.com/watch?v=J1WHM6k2eWc
 
 ## Implementation Details
 This experience uses Python’s Speech Recognition library to get user speech input. A cube tap-input is added as a failsafe in case the speech recognition library doesn’t recognize the correct words. Cozmo SDK’s ‘move_lift’ method is used with a custom ‘changeDirection’ method being called regularly to lift the cubes up and down to simulate a workout.
